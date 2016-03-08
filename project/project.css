@@ -13,15 +13,16 @@ header {
     border-radius: 10px;
     padding: 5px 20px 10px 20px;
 	}
-#about-us {
-	text-align: center;
 
-}
-#about-us img {
+.pages img {
 	border-radius: 10px;
+	border: 5px solid rgb(140, 0, 26);
 }
 p {
-	font-size: 17px;
+	font-size: 19px;
+}
+.pages a {
+	color: rgb(140, 0, 26);
 }
 body {
 	background-color: rgb(139, 69, 19);
@@ -31,18 +32,20 @@ h1 {
 	font-size: 70px;
 	color: rgb(140, 0, 26);
 	padding: 90px 0 60px 0;
-	font-style: bold;
+	font-weight: bold;
 }
 #header {
 	font-size: 20px;
 	color: rgb(140, 0, 26);
 	background: rgba(85, 107, 47, .8);
 	padding: 5px;
+	border-radius: 10px;
 }
 .navbar {
 	height: 20px;
 	display: block;
 	}
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
@@ -57,4 +60,48 @@ h1 {
     background-color: rgba(85, 107, 47, .8) ;
     text-align: center;
     color: rgb(140, 0, 26);
+}
+.blog {
+	text-align: center;
+	background: url("http://www.sripriyankaimpex.com/wp-content/uploads/2014/05/onions-red-Exports-sripriyankaimpex-600x390.jpg");
+    background-size: cover;
+    padding: 40px;
+    margin: 30px;
+    border-radius:10px;
+    
+}
+.blog h2{
+	background-color: rgba(140, 0, 26, .8) ;
+	padding: 10px;
+	margin: 20px 150px 20px 150px;
+	border-radius: 10px;
+}
+.blog a {
+	color: rgb(85, 107, 47);
+
+}
+
+.blog p {
+	background-color:rgba(85, 107, 47, .8); 
+	color: rgb(140, 0, 26);
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px 80px 10px 80px;
+}
+.more-info {
+	text-align: center;
+	color: rgb(85, 107, 47);
+	margin: 30px;
+}
+.more-info img {
+	padding: 20px;
+}
+.more-info p {
+	background-color: rgb(140, 0, 26) ;
+	padding: 10px;
+	border-radius: 10px;
+}
+.more-info input {
+	margin: 5px;
+	border-radius: 5px;
 }
